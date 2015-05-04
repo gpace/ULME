@@ -1,0 +1,265 @@
+body {
+    background-color: #b0c4de;
+}
+
+h1 {text-align:center;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+   }
+h2 {text-align:center;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+h3 {text-align:center;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+h3 {text-align:center;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+h3 {text-align:center;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+h4 {text-align:center;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+h5 {text-align:center;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+h6 {text-align:center;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+p {text-align:center;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+.figures { text-align:center;
+}
+
+.title {text-align:center;
+        font-size:80%; 
+        color: #f08b2f;
+        text-shadow: -2px 0px #000000,  2px 0px #000000, 0px 2px #000000,   0px -2px #000000, 2px 2px #000000, 
+                         -2px -2px #000000, 0px 2px #000000, 0px -2px #000000, -2px 2px #000000, 2px -2px #000000; 
+}
+.ulmeFont{
+   color: #f08b2f;
+   text-shadow: -2px 0px #000000, 2px 0px #000000, 0px 2px #000000, 0px -2px #000000, 2px 2px #000000, -2px -2px #000000, 0px 2px #000000, 0px -2px #000000, -2px 2px #000000, 2px -2px #000000; 
+}
+
+.pHome  {text-align:justify;
+    width:750px;
+    margin: 0px auto 0px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border:1px solid #f08b2f;  
+   }
+
+.showRes  {text-align:center;
+    width:750px;
+    margin: 0px auto 0px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border:1px solid #f08b2f;  
+   }
+
+
+.pDescr  {text-align:justify;
+    width:620px;
+    margin: 0px auto 0px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border:1px solid #f08b2f;  
+   }
+.pDescrText  {text-align:justify;
+   }
+.pLeft  {text-align:left;
+   }
+
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #f08b2f;
+    margin: 1em 0; padding: 0; }
+
+
+a:link    {color:#763d0a; background-color:transparent}
+a:visited {color:#763d0a; background-color:transparent}
+a:hover   {color:#f08b2f; background-color:transparent}
+a:active  {color:#f08b2f; background-color:transparent}
+
+
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+}
+
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.button {
+	background-color:#f08b2f;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #7d4a1b;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.button:hover {
+	background-color:#763d0a;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+.emptybutton {
+	background-color:#b0c4de;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #7d4a1b;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.emptybutton:hover {
+	background-color:#763d0a;
+}
+.emptybutton:active {
+	position:relative;
+	top:1px;
+}
+.NYVbutton {
+	background-color:#fff000;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #7d4a1b;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.NYVbutton:hover {
+	background-color:#763d0a;
+}
+.NYVbutton:active {
+	position:relative;
+	top:1px;
+}
+
+.NVbutton {
+	background-color:#ff0000;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #7d4a1b;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.NVbutton:hover {
+	background-color:#763d0a;
+}
+
+.NVbutton:active {
+	position:relative;
+	top:1px;
+}
+
+.parLink {
+	background-color:#f08b2f;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #7d4a1b;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+
+.footer { 
+    bottom:0;
+}
+
+.centralImage {
+    display:block;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.buttonRows {
+    text-align: center;
+    width: 750px;
+    margin: 0px auto 0px auto;
+    
+}
+
+.divisor {
+    width: 800px;
+    margin: 0px auto 0px auto;
+}
+
+
+table {
+    text-align : center
+    border: 5px solid black;
+    width: 60%;
+    padding: 15px;
+}
+
+thead { 
+    border-bottom: 5px solid #f08b2f;  
+    background-color:#FFFFFF;
+}
+
+th {    
+    text-align : center
+    border: 3px solid #f08b2f;
+    padding: 5px
+}
+td {    
+    text-align : center
+    border: 1px solid black;
+}
+
